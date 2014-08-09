@@ -1,26 +1,24 @@
 #!/usr/local/bin/python3
 """Count the words, lines and character in a chunk of test."""
 
-#gettysburg = """\
-#Four score and seven years ago our
-#fathers brought forth on this continent,
-#a new nation, conceived in Liberty, and 
-#dedicated to the proposition that 
-#all men are created equal.
-#
-#Now we are engaged in a great civil war,
-#testing whether that nation, or 
-#any nation so conceived and so dedicated,
-#can long endure. We are met on
-#a great battle-field of that war. We have 
-#come to deicate a portion of that
-#field, as a final resting place for those 
-#who her gave their lives that that
-#nation might live. It is altogether
-#fitting and proper that we should do this deinstitutionalizing
-#deinstitutionalizingafdaf. """
+gettysburg = """\
+Four score and seven years ago our
+fathers brought forth on this continent,
+a new nation, conceived in Liberty, and 
+dedicated to the proposition that 
+all men are created equal.
 
-gettysburg = input("Enter a string: ")
+Now we are engaged in a great civil war,
+testing whether that nation, or 
+any nation so conceived and so dedicated,
+can long endure. We are met on
+a great battle-field of that war. We have 
+come to deicate a portion of that
+field, as a final resting place for those 
+who her gave their lives that that
+nation might live. It is altogether
+fitting and proper that we should do this deinstitutionalizing
+deinstitutionalizingafdaf. """
 
 lengthct = [0]*20 # al list of 20 zeroes
 charct = len(gettysburg)
