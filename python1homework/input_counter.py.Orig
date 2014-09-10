@@ -1,0 +1,16 @@
+#!/usr/local/bin/python3
+words_list = {}
+count = 0
+j = 0
+while True:
+   input_string = input("Enter text: \n")
+   if not input_string:
+       print("Finished")
+       break
+   for punc in ",?;.":
+       input_string = input_string.replace(punc, "")
+   for i in input_string.lower().split():
+       count = count + 1
+       words_list[count] = i
+   for i in words_list.keys():
+       print(words_list[i], i)
